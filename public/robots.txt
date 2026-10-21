@@ -1,0 +1,10 @@
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid /
+
+User-agent: *
+Allow: /
+
+Host: https://ya-yura.github.io
+Sitemap: https://ya-yura.github.io/remont-pod-kontrolem/sitemap.xml
+

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Deep Emerald-Obsidian Architectural Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="55%" stop-color="#022C22" />
+      <stop offset="100%" stop-color="#091E1A" />
+    </linearGradient>
+
+    <!-- High-Visibility Laser Level Accent Gradient -->
+    <linearGradient id="laserGrad" x1="12" y1="12" x2="54" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- Warm Gold-Amber Precision Target -->
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base with High-Contrast Rim -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bgGrad)" />
+  <rect x="3" y="3" width="58" height="58" rx="14" stroke="#34D399" stroke-opacity="0.32" stroke-width="1.5" />
+
+  <!-- Subtle Laser Grid Crosshair Lines (Engineering Leveling) -->
+  <line x1="32" y1="7" x2="32" y2="57" stroke="#34D399" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 3" />
+  <line x1="7" y1="34" x2="57" y2="34" stroke="#34D399" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 3" />
+
+  <!-- Architectural Corner / Roof Frame (Crisp Warm Ivory) -->
+  <path
+    d="M13 31.5L32 14.5L51 31.5"
+    stroke="#FAF9F5"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M18 28.5V48C18 49.6569 19.3431 51 21 51H43C44.6569 51 46 49.6569 46 48V37"
+    stroke="#FAF9F5"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Laser Target Reticle Dot at Apex -->
+  <circle cx="32" cy="14.5" r="3" fill="url(#amberGrad)" />
+
+  <!-- Bold "Под контролем" Precision Checkmark Breaking Out of Frame -->
+  <path
+    d="M24.5 34.5L31 41L50.5 21.5"
+    stroke="#022C22"
+    stroke-width="8.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M24.5 34.5L31 41L50.5 21.5"
+    stroke="url(#amberGrad)"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
